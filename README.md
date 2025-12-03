@@ -89,55 +89,54 @@ The platform is designed to make learning more accessible, especially for users 
 
 ### Project Structure
 
-```
-Liroo/
-├── Application/              # App entry point and coordination
-│   ├── LirooApp.swift       # Main app struct
-│   ├── AppCoordinator.swift  # Navigation and state management
-│   ├── MainTabView.swift     # Tab bar navigation
-│   └── GoogleService-Info.plist.example  # Firebase config template
-│
-├── Core/                     # Core services and utilities
-│   ├── Services/            # Business logic services
-│   │   ├── NarratorTTSService.swift      # TTS narration
-│   │   ├── ContentGenerationViewModel.swift  # Content generation logic
-│   │   ├── FirestoreService.swift       # Database operations
-│   │   ├── ImageCacheManager.swift      # Image caching
-│   │   └── ...
-│   ├── Models/              # Data models
-│   │   ├── AppModels.swift
-│   │   ├── FirebaseModels.swift
-│   │   └── ...
-│   ├── UIComponents/        # Reusable UI components
-│   │   ├── CachedAsyncImage.swift
-│   │   └── ...
-│   └── Utilities/          # Helper utilities
-│       ├── AppConfig.swift  # Configuration management
-│       ├── AppTheme.swift
-│       └── ...
-│
-├── Features/                # Feature modules
-│   ├── ContentGeneration/   # Content generation UI and logic
-│   ├── Reading/             # Reading views and interactions
-│   ├── Authentication/     # User authentication
-│   ├── History/            # Content history
-│   ├── Profile/            # User profile management
-│   ├── Settings/           # App settings
-│   ├── OCR/               # OCR functionality
-│   └── ...
-│
-└── Resources/              # Assets, fonts, localizations
-    ├── Assets.xcassets/
-    ├── Fonts/
-    └── Localizables/
+This is a **single repository** containing both the iOS app and backend:
 
-Backend-Orasync/            # Backend API service
-├── backend.py             # Main Flask application
-├── requirements.txt       # Python dependencies
-├── .env.example          # Environment variables template
-├── README.md             # Backend documentation
-└── .gitignore           # Backend gitignore
 ```
+Liroo-Project/
+├── Liroo/                    # iOS Application Source Code
+│   ├── Application/         # App entry point and coordination
+│   │   ├── LirooApp.swift
+│   │   ├── AppCoordinator.swift
+│   │   ├── MainTabView.swift
+│   │   └── GoogleService-Info.plist.example  # Firebase config template
+│   │
+│   ├── Core/                # Core services and utilities
+│   │   ├── Services/       # Business logic services
+│   │   ├── Models/          # Data models
+│   │   ├── UIComponents/    # Reusable UI components
+│   │   └── Utilities/      # Helper utilities
+│   │
+│   ├── Features/            # Feature modules
+│   │   ├── ContentGeneration/
+│   │   ├── Reading/
+│   │   ├── Authentication/
+│   │   ├── History/
+│   │   ├── Profile/
+│   │   ├── Settings/
+│   │   ├── OCR/
+│   │   └── ...
+│   │
+│   └── Resources/           # Assets, fonts, localizations
+│       ├── Assets.xcassets/
+│       ├── Fonts/
+│       └── Localizables/
+│
+├── Liroo.xcodeproj/         # Xcode project file
+├── LirooWidgetExtension/    # iOS Widget extension
+│
+├── Backend-Orasync/         # Backend API service (Python/Flask)
+│   ├── backend.py           # Main Flask application
+│   ├── requirements.txt     # Python dependencies
+│   ├── .env.example         # Environment variables template
+│   ├── README.md            # Backend documentation
+│   └── .gitignore
+│
+├── README.md                # This file
+├── SETUP.md                 # Detailed setup guide
+└── .gitignore              # Git ignore rules
+```
+
+> **All in one place!** No submodules, no complex setup. Just clone and go.
 
 ### Configuration System
 
@@ -161,23 +160,26 @@ The app uses a centralized configuration system (`AppConfig`) that:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd Liroo
+   git clone https://github.com/jaskirat1616/Liroo-Project.git
+   cd Liroo-Project
    ```
+   > **Note**: This is a single repository containing both iOS app and backend. No submodules required!
 
 2. **Set up Firebase** (see [SETUP.md](SETUP.md) for detailed instructions)
-   - Create Firebase project
+   - Create Firebase project at [Firebase Console](https://console.firebase.google.com)
    - Download `GoogleService-Info.plist`
-   - Copy `GoogleService-Info.plist.example` to `Liroo/Application/GoogleService-Info.plist`
-   - Fill in your Firebase credentials
+   - Copy `Liroo/Application/GoogleService-Info.plist.example` to `Liroo/Application/GoogleService-Info.plist`
+   - Fill in your Firebase credentials from the downloaded file
 
-3. **Configure Backend URL**
-   - For local development: Set `BACKEND_URL=http://localhost:5000` or update `AppConfig.swift`
+3. **Configure Backend URL** (optional for local development)
+   - For local development: Set `BACKEND_URL=http://localhost:5000` in Xcode scheme
    - For production: Set your deployed backend URL
+   - Default: `http://localhost:5000` (can be changed in `Liroo/Core/Utilities/AppConfig.swift`)
 
 4. **Open in Xcode and build**
    ```bash
    open Liroo.xcodeproj
+   # Select your target device
    # Build and run (⌘R)
    ```
 

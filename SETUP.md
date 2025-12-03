@@ -16,9 +16,11 @@ This guide will walk you through setting up Liroo for development and production
 ### 1. Repository Setup
 
 ```bash
-git clone <repository-url>
-cd Liroo
+git clone https://github.com/jaskirat1616/Liroo-Project.git
+cd Liroo-Project
 ```
+
+> **Note**: This is a single, unified repository. Everything you need is included - no submodules or external dependencies to manage!
 
 ### 2. Firebase Configuration
 
@@ -33,10 +35,11 @@ cd Liroo
    - Storage → Enable Cloud Storage
 
 3. **Get Configuration File**
-   - Project Settings → General
+   - Project Settings → General → Your iOS app
    - Download `GoogleService-Info.plist`
-   - Copy to `Liroo/Application/GoogleService-Info.plist`
-   - **Important**: This file is gitignored. Never commit it.
+   - Copy the downloaded file to `Liroo/Application/GoogleService-Info.plist`
+   - **Important**: This file contains sensitive keys and is gitignored. Never commit it!
+   - You can use `Liroo/Application/GoogleService-Info.plist.example` as a reference
 
 4. **Configure Security Rules**
    - Set up Firestore security rules
