@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+		2A7A15D92E17494E009BF475 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A15D82E17494E009BF475 /* WidgetKit.framework */; };
+		2A7A15DB2E17494E009BF475 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A15DA2E17494E009BF475 /* SwiftUI.framework */; };
+		2A7A15EA2E17494F009BF475 /* LirooWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A7A15D62E17494E009BF475 /* LirooWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2A7A16012E1869F7009BF475 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7A16002E1869F7009BF475 /* FirebaseCrashlytics */; };
+		2A96CB922E1B31BF0071786D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 2A96CB912E1B31BF0071786D /* FirebaseMessaging */; };
+		2ADD25572DFCD791003F96C0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25562DFCD791003F96C0 /* GoogleSignIn */; };
+		2ADD25592DFCD791003F96C0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25582DFCD791003F96C0 /* GoogleSignInSwift */; };
+		2ADD255C2DFCD840003F96C0 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD255B2DFCD840003F96C0 /* FirebaseAI */; };
+		2ADD255E2DFCD840003F96C0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD255D2DFCD840003F96C0 /* FirebaseAnalytics */; };
+		2ADD25602DFCD840003F96C0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD255F2DFCD840003F96C0 /* FirebaseAuth */; };
+		2ADD25622DFCD840003F96C0 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25612DFCD840003F96C0 /* FirebaseCore */; };
+		2ADD25642DFCD840003F96C0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25632DFCD840003F96C0 /* FirebaseDatabase */; };
+		2ADD25662DFCD840003F96C0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25652DFCD840003F96C0 /* FirebaseFirestore */; };
+		2ADD25682DFCD840003F96C0 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25672DFCD840003F96C0 /* FirebaseFunctions */; };
+		2ADD256A2DFCD840003F96C0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD25692DFCD840003F96C0 /* FirebaseStorage */; };
+		2ADD256C2DFCD840003F96C0 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADD256B2DFCD840003F96C0 /* FirebaseVertexAI */; };
+/* End PBXBuildFile section */
+
+<<<<<<< HEAD
+/* Begin PBXFileReference section */
+=======
+/* Begin PBXContainerItemProxy section */
+		2A7A15E82E17494F009BF475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADD24802DFCD114003F96C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7A15D52E17494E009BF475;
+			remoteInfo = LirooWidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A7A15EF2E17494F009BF475 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A7A15EA2E17494F009BF475 /* LirooWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A7A15D62E17494E009BF475 /* LirooWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LirooWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7A15D82E17494E009BF475 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2A7A15DA2E17494E009BF475 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24882DFCD114003F96C0 /* Liroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2A7A127E2E04988A009BF475 /* Exceptions for "Liroo" folder in "Liroo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				exclude_documentation.sh,
+				fix_sandbox_errors.sh,
+				Info.plist,
+			);
+			target = 2ADD24872DFCD114003F96C0 /* Liroo */;
+		};
+<<<<<<< HEAD
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+=======
+		2A7A15EE2E17494F009BF475 /* Exceptions for "LirooWidgetExtension" folder in "LirooWidgetExtensionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				WidgetBundle.swift,
+			);
+			target = 2A7A15D52E17494E009BF475 /* LirooWidgetExtensionExtension */;
+		};
+		2A7A15F02E174969009BF475 /* Exceptions for "LirooWidgetExtension" folder in "Liroo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WidgetBundle.swift,
+			);
+			target = 2ADD24872DFCD114003F96C0 /* Liroo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2A7A15DC2E17494E009BF475 /* LirooWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A7A15F02E174969009BF475 /* Exceptions for "LirooWidgetExtension" folder in "Liroo" target */,
+				2A7A15EE2E17494F009BF475 /* Exceptions for "LirooWidgetExtension" folder in "LirooWidgetExtensionExtension" target */,
+			);
+			path = LirooWidgetExtension;
+			sourceTree = "<group>";
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD248A2DFCD114003F96C0 /* Liroo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A7A127E2E04988A009BF475 /* Exceptions for "Liroo" folder in "Liroo" target */,
+			);
+			path = Liroo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+<<<<<<< HEAD
+=======
+		2A7A15D32E17494E009BF475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7A15DB2E17494E009BF475 /* SwiftUI.framework in Frameworks */,
+				2A7A15D92E17494E009BF475 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24852DFCD114003F96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADD25572DFCD791003F96C0 /* GoogleSignIn in Frameworks */,
+				2ADD25602DFCD840003F96C0 /* FirebaseAuth in Frameworks */,
+				2ADD25592DFCD791003F96C0 /* GoogleSignInSwift in Frameworks */,
+				2ADD256A2DFCD840003F96C0 /* FirebaseStorage in Frameworks */,
+				2ADD25682DFCD840003F96C0 /* FirebaseFunctions in Frameworks */,
+				2ADD256C2DFCD840003F96C0 /* FirebaseVertexAI in Frameworks */,
+				2ADD255E2DFCD840003F96C0 /* FirebaseAnalytics in Frameworks */,
+				2ADD25622DFCD840003F96C0 /* FirebaseCore in Frameworks */,
+				2A96CB922E1B31BF0071786D /* FirebaseMessaging in Frameworks */,
+				2ADD25662DFCD840003F96C0 /* FirebaseFirestore in Frameworks */,
+				2A7A16012E1869F7009BF475 /* FirebaseCrashlytics in Frameworks */,
+				2ADD25642DFCD840003F96C0 /* FirebaseDatabase in Frameworks */,
+				2ADD255C2DFCD840003F96C0 /* FirebaseAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+<<<<<<< HEAD
+=======
+		2A7A15D72E17494E009BF475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A15D82E17494E009BF475 /* WidgetKit.framework */,
+				2A7A15DA2E17494E009BF475 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD247F2DFCD113003F96C0 = {
+			isa = PBXGroup;
+			children = (
+				2ADD248A2DFCD114003F96C0 /* Liroo */,
+<<<<<<< HEAD
+=======
+				2A7A15DC2E17494E009BF475 /* LirooWidgetExtension */,
+				2A7A15D72E17494E009BF475 /* Frameworks */,
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+				2ADD24892DFCD114003F96C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADD24892DFCD114003F96C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADD24882DFCD114003F96C0 /* Liroo.app */,
+<<<<<<< HEAD
+=======
+				2A7A15D62E17494E009BF475 /* LirooWidgetExtensionExtension.appex */,
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+<<<<<<< HEAD
+=======
+		2A7A15D52E17494E009BF475 /* LirooWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7A15EB2E17494F009BF475 /* Build configuration list for PBXNativeTarget "LirooWidgetExtensionExtension" */;
+			buildPhases = (
+				2A7A15D22E17494E009BF475 /* Sources */,
+				2A7A15D32E17494E009BF475 /* Frameworks */,
+				2A7A15D42E17494E009BF475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7A15DC2E17494E009BF475 /* LirooWidgetExtension */,
+			);
+			name = LirooWidgetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = LirooWidgetExtensionExtension;
+			productReference = 2A7A15D62E17494E009BF475 /* LirooWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24872DFCD114003F96C0 /* Liroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADD24932DFCD115003F96C0 /* Build configuration list for PBXNativeTarget "Liroo" */;
+			buildPhases = (
+				2ADD24842DFCD114003F96C0 /* Sources */,
+				2ADD24852DFCD114003F96C0 /* Frameworks */,
+				2ADD24862DFCD114003F96C0 /* Resources */,
+<<<<<<< HEAD
+=======
+				2A7A15EF2E17494F009BF475 /* Embed Foundation Extensions */,
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+			);
+			buildRules = (
+			);
+			dependencies = (
+<<<<<<< HEAD
+=======
+				2A7A15E92E17494F009BF475 /* PBXTargetDependency */,
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+			);
+			fileSystemSynchronizedGroups = (
+				2ADD248A2DFCD114003F96C0 /* Liroo */,
+			);
+			name = Liroo;
+			packageProductDependencies = (
+				2ADD25562DFCD791003F96C0 /* GoogleSignIn */,
+				2ADD25582DFCD791003F96C0 /* GoogleSignInSwift */,
+				2ADD255B2DFCD840003F96C0 /* FirebaseAI */,
+				2ADD255D2DFCD840003F96C0 /* FirebaseAnalytics */,
+				2ADD255F2DFCD840003F96C0 /* FirebaseAuth */,
+				2ADD25612DFCD840003F96C0 /* FirebaseCore */,
+				2ADD25632DFCD840003F96C0 /* FirebaseDatabase */,
+				2ADD25652DFCD840003F96C0 /* FirebaseFirestore */,
+				2ADD25672DFCD840003F96C0 /* FirebaseFunctions */,
+				2ADD25692DFCD840003F96C0 /* FirebaseStorage */,
+				2ADD256B2DFCD840003F96C0 /* FirebaseVertexAI */,
+				2A7A16002E1869F7009BF475 /* FirebaseCrashlytics */,
+				2A96CB912E1B31BF0071786D /* FirebaseMessaging */,
+			);
+			productName = Liroo;
+			productReference = 2ADD24882DFCD114003F96C0 /* Liroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADD24802DFCD114003F96C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+<<<<<<< HEAD
+=======
+					2A7A15D52E17494E009BF475 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+					2ADD24872DFCD114003F96C0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2ADD24832DFCD114003F96C0 /* Build configuration list for PBXProject "Liroo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADD247F2DFCD113003F96C0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2ADD25552DFCD791003F96C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2ADD24892DFCD114003F96C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADD24872DFCD114003F96C0 /* Liroo */,
+<<<<<<< HEAD
+=======
+				2A7A15D52E17494E009BF475 /* LirooWidgetExtensionExtension */,
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
+=======
+		2A7A15D42E17494E009BF475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24862DFCD114003F96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
+=======
+		2A7A15D22E17494E009BF475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24842DFCD114003F96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+<<<<<<< HEAD
+/* Begin XCBuildConfiguration section */
+=======
+/* Begin PBXTargetDependency section */
+		2A7A15E92E17494F009BF475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7A15D52E17494E009BF475 /* LirooWidgetExtensionExtension */;
+			targetProxy = 2A7A15E82E17494F009BF475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A7A15EC2E17494F009BF475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LirooWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LirooWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farmlys.co.Liroo.LirooWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A7A15ED2E17494F009BF475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LirooWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LirooWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farmlys.co.Liroo.LirooWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24912DFCD115003F96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ADD24922DFCD115003F96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADD24942DFCD115003F96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Liroo/Liroo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Liroo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "for ocr";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farmlys.co.Liroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADD24952DFCD115003F96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Liroo/Liroo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58WX73LXKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Liroo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "for ocr";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farmlys.co.Liroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+<<<<<<< HEAD
+=======
+		2A7A15EB2E17494F009BF475 /* Build configuration list for PBXNativeTarget "LirooWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7A15EC2E17494F009BF475 /* Debug */,
+				2A7A15ED2E17494F009BF475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+>>>>>>> 5be40df25a28971413b27c006b95fbb34cd15abd
+		2ADD24832DFCD114003F96C0 /* Build configuration list for PBXProject "Liroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADD24912DFCD115003F96C0 /* Debug */,
+				2ADD24922DFCD115003F96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADD24932DFCD115003F96C0 /* Build configuration list for PBXNativeTarget "Liroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADD24942DFCD115003F96C0 /* Debug */,
+				2ADD24952DFCD115003F96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ADD25552DFCD791003F96C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A7A16002E1869F7009BF475 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCrashlytics;
+		};
+		2A96CB912E1B31BF0071786D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		2ADD25562DFCD791003F96C0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD25552DFCD791003F96C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		2ADD25582DFCD791003F96C0 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD25552DFCD791003F96C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		2ADD255B2DFCD840003F96C0 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		2ADD255D2DFCD840003F96C0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2ADD255F2DFCD840003F96C0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2ADD25612DFCD840003F96C0 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		2ADD25632DFCD840003F96C0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		2ADD25652DFCD840003F96C0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2ADD25672DFCD840003F96C0 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		2ADD25692DFCD840003F96C0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		2ADD256B2DFCD840003F96C0 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADD255A2DFCD840003F96C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2ADD24802DFCD114003F96C0 /* Project object */;
+}

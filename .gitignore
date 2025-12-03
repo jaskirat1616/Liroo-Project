@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific files
+*.xcuserstate
+*.xcuserdata
+xcuserdata/
+*.xcschemes
+*.xcworkspace/xcuserdata/
+
+# Build artifacts
+build/
+DerivedData/
+*.swiftpm
+
+# Documentation (keep README and SETUP)
+Documentation/
+*.txt
+*.sh
+*.log
+
+# Crashlytics
+.crashlytics/
+
+# Sensitive files
+GoogleService-Info.plist
+*.env
+.env
+.env.local
+credentials.json
+service-account-key.json
+*credentials*.json
+*key*.json
+
