@@ -1,0 +1,68 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Credentials
+credentials.json
+service-account-key.json
+*credentials*.json
+*key*.json
+*.pem
+*.key
+
+# Output files
+lecture_output/
+*.txt
+*.json
+!requirements.txt
+!package.json
+!*.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build and deployment artifacts
+*.bin
+backend_backup.py
+backend_local_images*.py
+
+# Image directories (generated content)
+images/
+generated_images/
+comic_output/
